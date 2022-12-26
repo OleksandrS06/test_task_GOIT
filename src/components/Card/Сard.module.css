@@ -1,0 +1,100 @@
+.wrap {
+  margin: 0 auto;
+  width: 454px;
+  height: 547px;
+  background-image: url('../../images/Picture.png'),
+    linear-gradient(114.99deg, #471ca9 -0.99%, #5736a3 54.28%, #4b2a99 78.99%);
+  background-repeat: no-repeat;
+  background-position: 52px 34px, center center;
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+}
+
+.logoContainer {
+  position: relative;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.userInfo {
+  position: relative;
+  top: 165px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.line {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff;
+}
+.avatarWrap {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+  width: 72px;
+  height: 72px;
+  border: #ebd8ff 10px solid;
+  box-shadow: 0px 5.11111px 5.11111px rgba(0, 0, 0, 0.06),
+    inset 0px -2.55556px 5.11111px #ae7be3,
+    inset 0px 5.11111px 3.83333px #fbf8ff;
+  border-radius: 50%;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.userStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.userStat__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  width: 226px;
+  height: 56px;
+  background: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border: none;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #373737;
+  margin-bottom: 48px;
+}
+.isFollowing {
+  composes: btn;
+  background-color: #5cd3a8;
+}
