@@ -9,13 +9,7 @@ const Card = ({ followers, condition, isFollowing, followBtnHandler }) => {
   return (
     <div className={css.wrap}>
       <div className={css.logoContainer}>
-        <img
-          src={Logo}
-          alt="GO_IT logo"
-          srcSet={Logo}
-          width="88"
-          className={css.logo}
-        />
+        <img src={Logo} alt="GO_IT logo" width="88" className={css.logo} />
       </div>
 
       <div className={css.userInfo}>
@@ -24,7 +18,6 @@ const Card = ({ followers, condition, isFollowing, followBtnHandler }) => {
           <img
             src={Hansel}
             alt="boy-picture"
-            srcSet={Hansel}
             width="72"
             className={css.avatar}
           />
