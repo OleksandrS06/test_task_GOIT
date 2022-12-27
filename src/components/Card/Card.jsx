@@ -15,12 +15,7 @@ const Card = ({ followers, condition, isFollowing, followBtnHandler }) => {
       <div className={css.userInfo}>
         <div className={css.line}></div>
         <div className={css.avatarWrap}>
-          <img
-            src={Hansel}
-            alt="boy-picture"
-            width="72"
-            className={css.avatar}
-          />
+          <img src={Hansel} alt="boy" width="72" className={css.avatar} />
         </div>
         <div className={css.userStat}>
           <p className={css.userStat__text}>777 tweets</p>
