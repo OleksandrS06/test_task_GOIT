@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/test_task_GOIT/static/css/main.d41be77c.css",
+    "main.js": "/test_task_GOIT/static/js/main.a8128afa.js",
+    "static/media/Montserrat-SemiBold.ttf": "/test_task_GOIT/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Medium.ttf": "/test_task_GOIT/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Picture.png": "/test_task_GOIT/static/media/Picture.dad7b83150730e948021.png",
+    "static/media/Logo.svg": "/test_task_GOIT/static/media/Logo.c5207b329ba84af26c4d137b275c1da1.svg",
+    "index.html": "/test_task_GOIT/index.html",
+    "main.d41be77c.css.map": "/test_task_GOIT/static/css/main.d41be77c.css.map",
+    "main.a8128afa.js.map": "/test_task_GOIT/static/js/main.a8128afa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41be77c.css",
+    "static/js/main.a8128afa.js"
+  ]
+}
